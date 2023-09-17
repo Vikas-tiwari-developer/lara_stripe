@@ -1,0 +1,7 @@
+Stripe Keys
+
+Publishable key: pk_test_kjsvkPhN4lfThW1yHYTgqTko
+Secret key: sk_test_6YXlR1iMSwHpXAHPqyWzhjvE
+
+1. Install Stripe
+2. Create controller for function of integration of Stripe
