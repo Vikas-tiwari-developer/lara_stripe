@@ -9,7 +9,7 @@
       
 <div class="container">
       
-    <h1>Laravel 10 -</h1>
+    <h1>Make Payment</h1>
       
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
@@ -36,7 +36,7 @@
                             class="btn btn-success mt-3"
                             type="button"
                             style="margin-top: 20px; width: 100%;padding: 7px;"
-                            onclick="createToken()">PAY $10
+                            onclick="createToken()">PAY INR 100
                         </button>
                     <form>
       

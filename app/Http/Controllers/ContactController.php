@@ -22,7 +22,7 @@ class ContactController extends Controller
         Mail::to($request->email)->send(new SendPaymentLinkMail($maildata));
 
         return back()
-                ->with('success', 'Payment successful!');
+                ->with('success', 'Details Send to mail Successfully');
     }
 }
 

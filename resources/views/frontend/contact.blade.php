@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Contact Form</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -10,7 +10,7 @@
 <body>
 
 <div class="container mt-3">
-  <h2>Stacked form</h2>
+  <h2>Contact Form</h2>
   @if (Session::has('success'))
         <div class="alert alert-success text-center">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
@@ -28,14 +28,14 @@
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div>
     <div class="mb-3">
-      <label for="pwd">Desc:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      <label for="pwd">Description:</label>
+      <input type="text" class="form-control" id="pwd" placeholder="Enter description" name="pswd">
     </div>
-    <div class="form-check mb-3">
+    <!-- <div class="form-check mb-3">
       <label class="form-check-label">
         <input class="form-check-input" type="checkbox" name="remember"> Remember me
       </label>
-    </div>
+    </div> -->
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
